@@ -1,12 +1,13 @@
 import React from "react";
+import "../Styles/RecentDonations.css"
 
 const RecentDonations = (props) => {
   const {amount, caption, id, name} = props;
   return (
-    <div>
-     <p> {name} donated ${amount} </p>
+    <heading>
+     <h5> {name} donated ${amount} </h5>
      <p> {caption} </p>
-    </div>
+    </heading >
   );
 };
 

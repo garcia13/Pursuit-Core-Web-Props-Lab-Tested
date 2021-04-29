@@ -52,8 +52,10 @@ export default class App extends React.Component {
         <TopBar />
         <div className="container">
           <div className="row">
+            <div className="RecentDonations">
           <h3> Recent Donations</h3>
             {posts}
+            </div>
             <div className="col-8">
               <Progress sum={sum} />
               <hr />
